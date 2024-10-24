@@ -4,17 +4,22 @@
 }
 
 /* the styles for the elements */
-body {
-  	font-family: Arial, Helvetica, sans-serif;
-  	font-size: 100%;
-  	margin-left: auto;
-   	width: 600px; 
-   	margin-right: auto;
-   	margin-top: 0;
-   	margin-bottom: 0;
-   	border: 3px solid #931420; /* Add this line for the border */
-	background-color:#FFFDED;
+html {
+    height: 100%; /* Ensures the html element takes up the full height */
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: auto;
+    width: 600px; 
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 3px solid #931420; /* Border declaration */
+    background-color: #fffded; /* Background color for the body */
+}
+
 
 a:focus, a:hover {
 	font-style: italic;
