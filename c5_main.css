@@ -26,7 +26,7 @@ a:focus, a:hover {
 
 /* the styles for the header */
 header {
-    border: 3px solid #931420; /* Bottom border */
+    border-bottom: 3px solid #931420; /* Bottom border */
 }
 
 header h2 {
